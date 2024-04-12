@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra/Papel/Tijera</title>
+
+    <!-- Llamado a mi css -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header_title">Elige</h1>
+        <h2 class="header_title">Piedra, Papel o Tijera</h2>
+    </header>
+
+    <main class="main_container">
+    
+        <!-- Container vs -->
+        <div class="vs_container">
+
+            <div class="persona">
+                <img id="persona1" src="./img/persona.png" alt="">
+                <p>Persona 1</p>
+                <p id="ptos_persona1">0</p>
+            </div>
+
+            <div class="vs">
+                <h3 id="result">VS</h3>
+            </div>
+
+            <div class="computadora">
+                <img id="computadora2" src="./img/computer.png" alt="">
+                <p>computadora 2</p>
+                <p id="ptos_computadora2">0</p>
+            </div>
+
+        </div>
+        
+        <!-- Game -->
+        <div class="game_container">
+
+            <header class="header">
+                <h1 class="header_title">Escoge</h1>
+            </header>
+
+            <div class="game_options">
+                    <button id="piedra" class="option_piedra">
+                        <img src="img/piedra.jpg" alt="">
+                    </button>
+                    <button id="papel" class="option_papel">
+                        <img src="img/papel.png" alt="">
+                    </button>
+                    <button id="tijera" class="option_tijera">
+                        <img src="img/tijera.png" alt="">
+                    </button>         
+            </div>
+            
+
+            
+
+        </div>
+
+        <!-- Start Game -->
+        <div class="start_game">
+            <button id="start_game">
+                <img src="img/play.png" alt="">
+            </button>
+            <button id="reset">
+                <img src="img/cargar.png" alt="">
+            </button>
+        </div>
+
+    </main>
+    
+    <!-- Llamado a mi js -->
+    <script src="app.js"></script>
+</body>
+</html>
